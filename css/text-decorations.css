@@ -1,0 +1,8 @@
+.decoration{
+    font-size: 48px;
+    color: red;
+    /*太字*/
+    font-weight: bold;
+     /*斜体*/
+     font-style: italic;
+}

@@ -1,0 +1,26 @@
+/*idの書き方*/
+p{
+    color: red;
+}
+
+#first{
+    color: aqua;
+}
+
+#second{
+    color: blue;
+}
+
+#thrid{
+    color: blueviolet;
+}
+
+/*classの書き方*/
+.text-red {
+    color: red;
+  }
+  .text-blue {
+    color: blue;
+  }
+  
+  
