@@ -43,3 +43,9 @@ for(let i=0; i<=10;i+=1) {
 }
 
 //while文
+let num3 = Math.floor(Math.random()*2);
+
+// while(num3!==0){
+//     let num3 = Math.floor(Math.random()*2);
+//     console.log(num3)
+// }
