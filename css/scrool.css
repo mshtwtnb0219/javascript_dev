@@ -1,0 +1,29 @@
+.blue-screen {
+    height: 100vh;
+    color: #fff;
+    font-size: 5em;
+    text-align: center;
+    background-color: #88f;
+}
+
+.red-screen {
+    height: 100vh;
+    color: #fff;
+    font-size: 5em;
+    text-align: center;
+    background-color: #f88;
+}
+
+#back-btn {
+    display: none;
+
+    padding: 40px 10px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 50%;
+
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
