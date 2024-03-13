@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>表示します</h1>
+    <div id="output"></div>
+
+
+    <script>
+        const userName = sessionStorage.getItem('userName');
+        document.getElementById('output').textContent = userName;
+    </script>
+    
+</body>
+</html>

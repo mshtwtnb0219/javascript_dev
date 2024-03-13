@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>入力してください</h1>
+    <input type="text" id="userNameInput">
+    <button id="save-btn">保存</button>
+
+    <script>
+        // 保存ボタンの要素取得
+        const saveButton = document.getElementById('save-btn');
+        saveButton.addEventListener('click',()=>{
+            //入力内容を取得
+            const userName = document.getElementById('userNameInput').value;
+
+            // sessionStrageに保存
+            sessionStorage.setItem('userName',userName);
+            // 別のページに遷移
+            location.href =　'session_get.html';
+
+        });
+        
+    </script>
+
+
+
+</body>
+
+</html>
