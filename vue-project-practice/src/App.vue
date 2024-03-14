@@ -2,25 +2,36 @@
 //import HelloWorld from './components/HelloWorld.vue'
 //import TheWelcome from './components/TheWelcome.vue'
 import TestComponet from './components/TestComponet.vue';
+import DirectiveComponent from './components/DirectiveComponent.vue';
+
+
+const receivedMessage = "";
+function handleMessage(message) {
+  this.receivedMessage = message;
+}
+
+
+
+
+
+
+
 </script>
 
 <template>
   <header>
-
-    <!--
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-
-    -->
-
   </header>
 
   <main>
-    <!--<TheWelcome />-->
+
     <TestComponet text="prppsお試し" />
+    <DirectiveComponent></DirectiveComponent>
+
+    <div>
+      <child-component @message="handleMessage"></child-component>
+      <p>{{ receivedMessage }}</p>
+    </div>
+
   </main>
 </template>
 
